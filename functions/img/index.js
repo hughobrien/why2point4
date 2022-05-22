@@ -1,4 +1,4 @@
-async function onRequest(context) {
+export async function onRequest(context) {
   const { request } = context;
   const url = new URL(request.url);
   const file = url.pathname.split('/')[2];
