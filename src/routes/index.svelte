@@ -15,7 +15,7 @@
 	<div class="cover">
 		<picture>
 			<img
-				src="https://images.why2point4.com/file/why2point4/DSC_1787-1k.jpg.webp"
+				src="https://assets.why2point4.com/file/why2point4/1k/DSC_1788.webp"
 				alt="FCC Docket Book 7859"
 			/>
 		</picture>
