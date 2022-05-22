@@ -15,7 +15,7 @@
 	<h1>
 		<div class="welcome">
 			<picture>
-				<img src="DSC_1787-2k.jpg.webp" alt="Docket 7859" />
+				<img src="https://images.why2point4.com/file/why2point4/DSC_1787-2k.jpg.webp" alt="Docket 7859" />
 			</picture>
 		</div>
 
