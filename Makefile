@@ -4,6 +4,7 @@ do: format lint check build
 .PHONY: build
 build: check
 	npx svelte-kit build
+	cp _redirects .svelte-kit/cloudflare/_redirects
 
 .PHONY: format
 format:
