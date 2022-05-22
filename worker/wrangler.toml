@@ -1,6 +1,6 @@
 name = "why2point4-images"
 main = "./images.js"
-compatibility_date = "2022-04-05"
+compatibility_date = "2022-04-05" # https://developers.cloudflare.com/workers/platform/compatibility-dates/
 usage_model = "bundled"
 workers_dev = false
 
