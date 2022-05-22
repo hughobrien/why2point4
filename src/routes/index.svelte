@@ -7,21 +7,19 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Why 2.4GHz?</title>
+	<meta name="description" content="The historical records behind everyone's favourite frequency" />
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<img src="https://images.why2point4.com/file/why2point4/DSC_1787-2k.jpg.webp" alt="Docket 7859" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
+	<div class="cover">
+		<picture>
+			<img
+				src="https://images.why2point4.com/file/why2point4/DSC_1787-1k.jpg.webp"
+				alt="FCC Docket Book 7859"
+			/>
+		</picture>
+	</div>
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
@@ -36,24 +34,5 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>

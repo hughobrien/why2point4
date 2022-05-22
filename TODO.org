@@ -1,0 +1,12 @@
+* prettify images hosting
+either a:
+- worker/fetch proxy
+- function fetch/proxy
+- url rewrites (paid plan only)
+- `_redirects` (seems broken) [[https://developers.cloudflare.com/pages/platform/redirects/][docs]]
+
+https://images.why2point4.com/file/why2point4/DSC_1787-1k.jpg.webp
+https://f002.backblazeb2.com/file/why2point4/DSC_1787-1k.jpg.webp
+https://why2point4.com/img/DSC_1787-1k.jpg.webp
+* remove demo static files
+* add readme
