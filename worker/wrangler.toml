@@ -1,0 +1,10 @@
+name = "why2point4-images"
+type = "javascript"
+main = "./index.js"
+compatibility_date = "2022-05-12"
+usage_model = "bundled"
+workers_dev = false
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "why2point4"
