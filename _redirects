@@ -1,1 +1,2 @@
-/img/* https://images.why2point4.com/file/why2point4/:splat
+/img/* https://images.why2point4.com/file/why2point4/:splat 301
+/foo/* /bar/:splat 302
