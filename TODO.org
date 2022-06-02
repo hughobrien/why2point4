@@ -11,6 +11,12 @@ https://why2point4.com/img/DSC_1787-1k.jpg.webp
 * remove demo static files
 * add readme
 * OCR Files
+https://github.com/ocrmypdf/OCRmyPDF
+ocrmypdf -l eng --rotate-pages --deskew --clean  --oversample 300 --force-ocr rpt6602.pdf rpt6602.pdf
 ns tesseract5
 a=DSC_1788_4.jpg
 tesseract ~/x/why2point4/$a $a  --oem 1 -l eng
+* add notes about the original thesis
+* add notes / screenshots about the indiegogo
+** and the chinese translation!
+* use rclone for b2
