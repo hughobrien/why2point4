@@ -7,7 +7,7 @@ build: check
 
 .PHONY: format
 format:
-	npx prettier --write --plugin-search-dir=. .
+	npx prettier --write --plugin-search-dir=. src tests *.js *.ts
 
 .PHONY: lint
 lint:
