@@ -21,3 +21,7 @@ check:
 .PHONY: dev
 dev: format
 	npx svelte-kit dev --host 0.0.0.0
+
+.PHONY: ocr
+ocr:
+	ocrmypdf -l eng --rotate-pages --deskew --clean --oversample 300 --force-ocr test.pdf
